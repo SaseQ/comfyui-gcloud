@@ -73,7 +73,7 @@
     wget "https://civitai.com/api/download/models/134084" --content-disposition -P ./models/checkpoints/
     ```
 
-## Upload New Models/Loras your local machine to the VM
+## Upload New Models/Loras from your local machine to the VM
 ```
 gcloud compute scp [path to your local file] comfyvm:~/ComfyUI/models/loras/
 ```
